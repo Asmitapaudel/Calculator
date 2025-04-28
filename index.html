@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ui.css">
     <title>Calculator</title>
 </head>
 <body>
@@ -15,28 +16,28 @@
             <button type="button" onclick="forDisplay('1')">1</button>
             <button type="button" onclick="forDisplay('2')">2</button>
             <button type="button" onclick="forDisplay('3')">3</button>
-            <button type="button" onclick="forDisplay('+')">+</button>
+            <button type="button" onclick="forDisplay('+')" class="character">+</button>
         </div>
         <div>
             <button type="button" onclick="forDisplay('4')">4</button>
             <button type="button" onclick="forDisplay('5')">5</button>
             <button type="button" onclick="forDisplay('6')">6</button>
-            <button type="button" onclick="forDisplay('-')">-</button>
+            <button type="button" onclick="forDisplay('-')" class="character">-</button>
         </div>
         <div>
             <button type="button" onclick="forDisplay('7')">7</button>
             <button type="button" onclick="forDisplay('8')">8</button>
             <button type="button" onclick="forDisplay('9')">9</button>
-            <button type="button" onclick="forDisplay('*')">*</button>
+            <button type="button" onclick="forDisplay('*')" class="character">*</button>
         </div>
         <div>
             <button type="button" onclick="forDisplay('0')">0</button>
-            <button type="button" onclick="forDisplay('.')">.</button>
-            <button type="button" onclick="clearDisplay()">C</button>
-            <button type="button" onclick="forDisplay('/')">/</button>
+            <button type="button" onclick="forDisplay('.')"class="character">.</button>
+            <button type="button" onclick="clearDisplay()" class="character">C</button>
+            <button type="button" onclick="forDisplay('/')" class="character">/</button>
         </div>
         <div>
-            <button type="button" onclick="calculate()">=</button>
+            <button type="button" onclick="calculate()" class="character">=</button>
         </div>
     </form>
 
